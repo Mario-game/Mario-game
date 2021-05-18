@@ -1,9 +1,0 @@
-node{
-  stage('SCM Checkout'){
-  git 'https://github.com/Mario-game/Mario-game'}
-  stage('Compile-Package'){
- // def mvnHome = tool name: '', type: 'maven'
-    def mvnHome = tool 'Default'
- // sh "${mvnHome}/bin/mvn package"
-  }
-}
