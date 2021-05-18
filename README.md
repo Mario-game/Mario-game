@@ -8,4 +8,4 @@ The used IDE is netbeans (I uploaded all project artifacts), also the game JAR f
 
 This game is free to use and the code is available to anyone to learn from it without any restrictions.
 
-Please visit my website. http://www.mohamedtalaat.net/
+Please visit my website. http://www.mohamedtalaat.net/ .
