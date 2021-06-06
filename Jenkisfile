@@ -1,0 +1,21 @@
+pipeline {
+ agent any 
+   stages {
+     stage ('Build') {
+         steps { echo 'hi1' }
+         }
+     stage ('test') {
+         steps { echo 'hi2' }
+         }
+     stage ('QA') {
+         steps { echo 'hi3' }
+         }
+     stage ('Deploy') {
+         steps { echo 'hi4' }
+         }
+     stage ('Monitor') {
+         steps { echo 'hi5' }
+         }
+
+}
+}
